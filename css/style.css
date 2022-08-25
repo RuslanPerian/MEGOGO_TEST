@@ -531,5 +531,5 @@ nav>ul>li>a:hover{
     scroll-snap-type: y mandatory;
     -ms-overflow-y: scroll;
     overflow-y: scroll;
-    height: 100vh;
+    height: 100%;
 }
