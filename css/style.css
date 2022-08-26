@@ -51,6 +51,7 @@ html{
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow: hidden;
 }
 
 *,
@@ -70,6 +71,7 @@ body{
     line-height: 20px;
     color: #FFF;
     background-color: #101010;
+    overflow: hidden;
 }
 
 h1, h2{
@@ -202,6 +204,7 @@ nav>ul>li>a:hover{
 
 .offer__title{
     margin: 0 0 2.25%;
+    margin: 0 0 100% calc(var(--vh, 1vh) * 2.25);
 }
 
 .offer__text{
@@ -244,6 +247,7 @@ nav>ul>li>a:hover{
     width: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%) no-repeat center bottom;
     background-size: 100% 61%;
+    background-size: 100% calc(var(--vh, 1vh) * 61);
     position: absolute;
 }
 
@@ -287,6 +291,7 @@ nav>ul>li>a:hover{
     -webkit-justify-content: flex-start;
     justify-content: flex-start;
     margin-top: 12%;
+    margin-top: calc(var(--vh, 1vh) * 12);
 }
 
 .film-download .offer__text,
@@ -307,17 +312,20 @@ nav>ul>li>a:hover{
 .optimal .gradient{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.83) 100%) no-repeat center bottom;
     background-size: 100% 61%;
+    background-size: 100% calc(var(--vh, 1vh) * 61);
 }
 
 .optimal__title{
     width: 80%;
     margin: 5.4% auto 0;
+    margin: calc(var(--vh, 1vh) * 5.4) auto 0;
     padding-left: 12px;
     position: relative;
 }
 
 .optimal .offer{
     margin: 16.34% auto 6%;
+    margin: calc(var(--vh, 1vh) * 16.34) auto calc(var(--vh, 1vh) * 6);
     height: auto;
 }
 
@@ -325,6 +333,7 @@ nav>ul>li>a:hover{
     font-size: 36px;
     line-height: 43px;
     margin-bottom: 1.5%;
+    margin-bottom: calc(var(--vh, 1vh) * 1.5);
 }
 
 .optimal .offer__text{
@@ -352,10 +361,12 @@ nav>ul>li>a:hover{
 .try__title{
     line-height: 30px;
     margin-bottom: 2.4%;
+    margin-bottom: calc(var(--vh, 1vh) * 2.4);
 }
 
 .try__btn-container{
     margin-bottom: 1.5%;
+    margin-bottom: calc(var(--vh, 1vh) * 1.5);
 }
 
 .try__text{
@@ -385,6 +396,7 @@ nav>ul>li>a:hover{
 .gift .gradient{
     background: linear-gradient(179.79deg, rgba(16, 16, 16, 0) 37.5%, #101010 90.39%) no-repeat center bottom;
     background-size: 100% 37.6%;
+    background-size: 100% calc(var(--vh, 1vh) * 37.6);
 }
 
 .gift .offer{
@@ -393,6 +405,7 @@ nav>ul>li>a:hover{
     -webkit-justify-content: flex-start;
     justify-content: flex-start;
     padding-top: 13.8%;
+    padding-top: calc(var(--vh, 1vh) * 13.8);
 }
 
 .gift .offer__title,
@@ -403,6 +416,7 @@ nav>ul>li>a:hover{
 
 .pay .offer__title{
     margin-bottom: 4.5%;
+    margin-bottom: calc(var(--vh, 1vh) * 4.5);
 }
 
 .offer__table{
@@ -421,6 +435,7 @@ nav>ul>li>a:hover{
     line-height: 18px;
     width: 50%;
     margin: 0 0 6%;
+    margin: 0 0 calc(var(--vh, 1vh) * 6);
 }
 
 .offer__table p:nth-child(2){
@@ -433,6 +448,7 @@ nav>ul>li>a:hover{
 
 .offer__table p:nth-child(4){
     margin-bottom: 7.8%;
+    margin-bottom: calc(var(--vh, 1vh) * 7.8);
 }
 
 .offer__table-item span{
