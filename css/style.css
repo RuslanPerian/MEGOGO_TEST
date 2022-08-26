@@ -204,7 +204,7 @@ nav>ul>li>a:hover{
 
 .offer__title{
     margin: 0 0 2.25%;
-    margin: 0 0 100% calc(var(--vh, 1vh) * 2.25);
+    margin: 0 0 calc(var(--vh, 1vh) * 2.25);
 }
 
 .offer__text{
@@ -379,6 +379,7 @@ nav>ul>li>a:hover{
 
 .try__info{
     margin-top: 3%;
+    margin-top: calc(var(--vh, 1vh) * 3);
     display: block;
     color: #E5E5E5;
 }
