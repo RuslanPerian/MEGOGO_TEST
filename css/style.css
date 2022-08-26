@@ -467,7 +467,6 @@ nav>ul>li>a:hover{
 
 .show_on{
     width: 100%;
-    height: 100%;
     opacity: 1;
     -ms-transition: width 0.5s ease,
     height 0.5s ease,
