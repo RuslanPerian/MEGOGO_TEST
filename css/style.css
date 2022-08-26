@@ -142,7 +142,6 @@ nav>ul>li>a:hover{
 .container{
     width: 100%;
     height: 100vh;
-    height: calc(var(--vh, 1vh) * 100);
     position: relative;
     overflow: hidden;
 }
@@ -467,6 +466,7 @@ nav>ul>li>a:hover{
 
 .show_on{
     width: 100%;
+    height: 100vh;
     opacity: 1;
     -ms-transition: width 0.5s ease,
     height 0.5s ease,
@@ -531,6 +531,10 @@ nav>ul>li>a:hover{
     scroll-snap-type: y mandatory;
     -ms-overflow-y: scroll;
     overflow-y: scroll;
+    height: 100vh;
+}
+
+#main-container{
     height: 100vh;
     height: calc(var(--vh, 1vh) * 100);
 }
